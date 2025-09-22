@@ -95,5 +95,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Stop wasting time on slide layouts"
+	subtitle="Start creating presentations that impress"
+	description="Join thousands of marketing teams who've already transformed their presentation workflow. Get from content to compelling pitch deck in under 45 minutes—with professional design that preserves your brand identity."
+	imageSrc="/generated/image-photorealistic-editorial-corporate-portr.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Start creating now",
+			variant: "primary"
+		},
+		{
+			href: "/demo",
+			label: "See it in action",
+			variant: "secondary"
+		}
+	]}
+/>
