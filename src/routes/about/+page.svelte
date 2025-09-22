@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Design thinking",
+			description: "Every feature starts with design principles. We build AI that thinks like designers, creating beautiful presentations that preserve your brand identity."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Speed without sacrifice",
+			description: "Transform hours of design work into minutes of content input. Our grid-based system delivers professional results at the speed of thought."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Quality obsession",
+			description: "We believe presentations should be presentation-worthy. Every template, every layout, every detail is crafted to make you look exceptional."
 		}
 	];
 </script>
@@ -33,7 +33,6 @@
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
 		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
 		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
@@ -43,61 +42,27 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
-<!-- StakeholderGrid Section -->
+<!-- Founder Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Meet our founder."
+	subtitle="Building the future of presentations."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Leo Radloff",
+			position: "Founder",
+			bio: "Transforming presentation creation from hours of design work into minutes of content input through AI-powered grid layouts.",
+			image: "/generated/image-professional-headshot-of-a-business-foun.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to transform your presentations?"
+	subtitle="Join the design revolution"
+	description="Stop wasting hours on PowerPoint. Join marketing managers at fast-growing SaaS companies who create pitch-perfect presentations in minutes, not hours."
+	imageSrc="/generated/image-photorealistic-editorial-corporate-lifes.webp"
 />
