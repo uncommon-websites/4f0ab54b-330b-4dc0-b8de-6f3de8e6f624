@@ -26,10 +26,9 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Design-forward by default"
+	subtitle="AI formatting that thinks like you"
+	imageSrc="/generated/image-natural-light-candid-photograph-of-a-div.webp"
 />
 
 <!-- Story Section -->
