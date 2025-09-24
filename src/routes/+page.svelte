@@ -26,60 +26,72 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Presentations without the pain"
+	text="Slides takes the frustration out of presentation design for marketing teams at fast-growing SaaS companies. Just add your content—our AI-powered grid system handles the layout, branding, and formatting automatically. Save 8+ hours per deck with layout automation that thinks like a designer, not generic templates."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Clara Reyes",
+			position: "Head of Marketing",
+			company: "Able.io",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We used to spend 8 hours building a deck. With Slides, we ship in under 45 minutes—with better design.",
+			image: "/generated/image-professional-corporate-headshot-of-a-con.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Kenji Okafor",
+			position: "Marketing Lead",
+			company: "LambdaStack",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Slides helped our team cut design requests by 80%. Now we move way faster and stay on brand every time.",
+			image: "/generated/image-professional-corporate-headshot-of-a-con.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Alya Tanaka",
+			position: "Growth Marketer",
+			company: "Intuitiv",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We saved $12K in design contractor fees last quarter thanks to Slides. It just works.",
+			image: "/generated/image-professional-corporate-headshot-of-a-con.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why marketing teams choose Slides"
+	subtitle="Transform your pitch deck workflow from frustrating to effortless"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Grid-based AI that thinks like designers",
+			description: "Our revolutionary grid system automatically formats content with perfect spacing and alignment. No more wrestling with slide layouts.",
+			imageSrc: "/generated/image-natural-light-design-studio-candid-34-an.webp"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Brand consistency across every slide",
+			description: "Preserve your company's visual identity with intelligent brand recognition. Your presentations look professionally designed, never generic.",
+			imageSrc: "/generated/image-bright-creative-studio-overhead-top-down.webp"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "8+ hours saved per presentation",
+			description: "What used to take all day now takes minutes. Focus on content strategy while Slides handles the design work.",
+			imageSrc: "/generated/image-design-studio-dynamic-angle-fast-paced-w.webp"
+		},
+		{
+			title: "Designer-quality output, every time",
+			description: "Professional layouts that rival expensive design agencies. Your team delivers pitch-perfect presentations that impress investors.",
+			imageSrc: "/generated/image-architectural-boardroom-medium-wide-prof.webp"
+		},
+		{
+			title: "Investor-ready templates built for SaaS",
+			description: "Skip the guesswork with proven pitch deck structures. Templates designed specifically for Series A-C funding rounds.",
+			imageSrc: "/generated/image-sunlit-conference-room-wide-shot-a-prese.webp"
+		},
+		{
+			title: "Real-time collaboration that scales",
+			description: "Your entire marketing team can contribute simultaneously. Changes sync instantly without version control chaos.",
+			imageSrc: "/generated/image-modern-co-working-space-medium-shot-a-di.webp"
 		}
 	]}
 />
